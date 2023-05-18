@@ -1,0 +1,8 @@
+body{
+    background-image: url('./assets/images/music-pattern.svg');
+}
+.homeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

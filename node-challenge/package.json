@@ -1,0 +1,32 @@
+{
+  "name": "ImproveinNodejs",
+  "version": "1.0.0",
+  "description": "Instruction",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjacifre10/Improvein_Nodejs.git"
+  },
+  "keywords": [],
+  "author": "Cifre Benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjacifre10/Improvein_Nodejs/issues"
+  },
+  "homepage": "https://github.com/benjacifre10/Improvein_Nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
